@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+a{
+    color: black;
+}
+/* my top view */
+.main{
+    display: flex;
+}
+.mypic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.main_detail{
+    width: 100vw;
+    /* background-color: rgb(215, 114, 114); */
+}
+.nav{
+    display: flex;
+    font-size: 1.3em;
+    align-items: center;
+    height:7vh;
+    /* background-color:yellow; */
+}
+.navbar{
+    display: flex;
+    margin-left: auto;
+    /* background-color: red; */
+    width: 40vw;
+    justify-content: space-around;
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.myintro{
+    position: relative;
+    height: 97vh;
+    display: flex;
+    align-items: center;
+}
+.rel_info{
+    position: absolute;
+    right: 0px;
+    font-size: 2rem;
+    /* background-color: red; */
+    padding: 2%;
+}
+
+
+
+/* my project css */
+.project{
+    display: flex;
+    margin: 0 10%;
+    padding: 3%;
+    box-shadow: 0px 0px 4px rgb(219, 219, 219);
+    flex-direction: column;
+    /* background-color: rgb(255, 219, 162); */
+    /* background-color: red; */
+}
+.project iframe{
+    height: 50vh;
+    margin-bottom: 5vh;
+    border: none;
+    padding: 1%;
+    box-shadow: 0 0 4px gray;
+}
+.project a{
+    padding: 2%;
+    margin-bottom: 1%;
+    /* background-color: red; */
+    box-shadow: 0 0 4px rgb(232, 232, 232);
+}
+.project a:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: rgb(167, 167, 167);
+}
+.contact , .social ,.design{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    background-color: red;
+}
